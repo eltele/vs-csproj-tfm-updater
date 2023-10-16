@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  
+
+  <ItemGroup>
+    <PackageReference Include="Eltele.Common.Abstractions" />
+    <PackageReference Include="Eltele.Common.Models" />
+    <PackageReference Include="Microsoft.SqlServer.Types"  />
+    <PackageReference Include="Newtonsoft.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSkyss.Core\FSkyss.Core.csproj" />
+    <ProjectReference Include="..\FSkyss.Shared\FSkyss.Shared.csproj" />
+    <ProjectReference Include="..\Plugins\ArcGisSource\ArcGisSource.csproj" />
+  </ItemGroup>
+</Project>
